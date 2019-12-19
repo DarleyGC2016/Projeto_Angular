@@ -1,1 +1,109 @@
-/* You can add global styles to this file, and also import other style files */
+body {
+  display: flex;
+  justify-items: center;
+  justify-content: center;
+  font-family: "Montserrat", sans-serif;
+  background-repeat: no-repeat;
+  font-weight: 300;
+  text-align: center;
+  background: #3023ae;
+  background: -moz-linear-gradient(60deg, #3026ae 0%, #d62a0b);
+  background: -webkit-linear-gradient(60deg, #3026ae 0%, #d62a0b);
+  background: linear-gradient(60deg, #3026ae 0%, #d62a0b);
+  filter: progid:DXImageTranform.Microsoft.gradient(startColorstr="#3026ae",endColorstr="#d62a0b", GradientType=1);
+}
+
+button {
+  cursor: pointer;
+}
+
+table {
+  border-collapse: collapse;
+  margin: auto;
+  table-layout: auto;
+  background: #fff;
+  border-radius: 10px;
+  -webkit-box-shadow: 3px 4px 14px 0px rgba(0, 0, 0, 0.39);
+  -moz-box-shadow: 3px 4px 14px 0px rgba(0, 0, 0, 0.39);
+  box-shadow: 3px 4px 14px 0px rgba(0, 0, 0, 0.39);
+}
+td,
+th,
+tr {
+  margin: 15px;
+  padding: 10px;
+  text-align: center;
+  font-size: 1em;
+  font-style: italic;
+  border-bottom: 2px solid rgba(0, 0, 0, 0.2);
+}
+
+.titulo {
+  font-family: "Dancing Script", cursive;
+  color: #fff;
+  font-size: 2.5em;
+  text-shadow: 3px 5px #000;
+}
+
+.texto-centro {
+  text-align: center;
+  font-weight: bold;
+}
+
+.button {
+  background-color: #00f;
+  border: none;
+  padding: 20px;
+  color: #fff;
+  border-radius: 10px;
+  font-size: 1em;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+#formModal {
+  text-align: left;
+  margin: 15px;
+  padding: 15px;
+  background: #fff;
+  border-radius: 10px;
+  -webkit-box-shadow: 3px 4px 14px 0px rgba(0, 0, 0, 0.39);
+  -moz-box-shadow: 3px 4px 14px 0px rgba(0, 0, 0, 0.39);
+  box-shadow: 3px 4px 14px 0px rgba(0, 0, 0, 0.39);
+}
+
+input {
+  width: 100%;
+  line-height: 25px;
+  text-indent: 10px;
+  font-size: 1.2em;
+}
+
+select {
+  width: 100%;
+  line-height: 25px;
+  text-indent: 10px;
+  font-size: 1.2em;
+}
+
+.botaoDiv {
+  background-color: #00f;
+  margin: 10px;
+  padding: 10px;
+  color: #fff;
+  border-radius: 10px;
+  font-size: 1em;
+}
+
+.danger {
+  background-color: #ff0000;
+  color: #fff;
+  font-weight: bolder;
+  padding: 5px;
+  margin-top: 10px;
+}
+
+label {
+  font-weight: bold;
+  padding-bottom: 10px;
+}
